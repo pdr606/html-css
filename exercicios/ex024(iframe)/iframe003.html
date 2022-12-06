@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Uso de iframes</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        iframe#tela{
+            width: 95vw;
+            height: 400px;
+            border: 2px solid black;
+        }
+    </style>
+</head>
+<body>
+    <h1>Faça uma escolha</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque ab ex eos! Possimus explicabo necessitatibus rem illo culpa, doloribus praesentium quae ducimus velit nisi dicta assumenda dolor ab? Repudiandae, omnis.</p>
+
+    <ul>
+        <li><a href="paginasextras/pagina001.html" target="frame">Primeira página</a></li>
+        <li><a href="e">Segunda página</a></li>
+        <li><a href="e">Terceira página</a></li>
+    </ul>
+
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum aliquid quibusdam explicabo unde ex laborum incidunt provident autem, quia laudantium, quaerat, eum deleniti harum ut error suscipit beatae! Temporibus, nemo! Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores quasi quis maiores ad ratione quisquam quas recusandae temporibus corporis aperiam vero aut nisi, velit obcaecati, dolores sed! Repellat, error harum!</p>
+
+    <iframe id="tela" name="frame" srcdoc="<h1>Escolha uma das opções acima</h1>" frameborder="1">
+        <p>Infelizmente seu navegador não é compatível com isso.</p>
+    </iframe>
+
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias maxime quo harum aliquid atque minima, temporibus porro maiores, est deleniti, excepturi eius. Dignissimos suscipit veniam neque veritatis nemo deleniti quasi? Lorem, ipsum dolor sit amet consectetur adipisicing elit. Illo, asperiores molestias. Excepturi consequatur perferendis magni facere vero quae numquam quaerat, ipsam facilis iure omnis! Tempore, provident? Nulla sequi consequuntur eos!</p>
+    
+</body>
+</html>
